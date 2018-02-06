@@ -2,18 +2,57 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+        <source>Right-click to edit address or label</source>
+        <translation>पते या लेबल को संपादित करने के लिए दाहिना-क्लिक करें</translation>
+    </message>
+    <message>
         <source>Create a new address</source>
         <translation>नया पता लिखिए !</translation>
+    </message>
+    <message>
+        <source>&amp;New</source>
+        <translation>नया</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>चुनिन्दा पते को सिस्टम क्लिपबोर्ड पर कापी करे !</translation>
     </message>
     <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>सूची से वर्तमान में चयनित पता हटाएं</translation>
+    </message>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;निर्यात</translation>
+    </message>
+    <message>
         <source>&amp;Delete</source>
         <translation>&amp;मिटाए !!</translation>
     </message>
-</context>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>सिक्कों को भेजने के लिए पता चुनें</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>सिक्कों को प्राप्त करने के लिए पता चुनें</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>सभी पते भेज रहा है</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>पतों को प्राप्त कर रहा है</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>ये भुगतान भेजने के लिए ये आपके बिटकॉइन पते हैं। हमेशा सिक्के भेजने से पहले राशि और प्राप्तकर्ता पते की जांच करें।</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -28,7 +67,7 @@
         <source>Repeat new passphrase</source>
         <translation>दोबारा नया पहचान शब्द/अक्षर डालिए !</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>BanTableModel</name>
     </context>
@@ -135,7 +174,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड है</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -169,7 +208,7 @@
         <source>&amp;Address</source>
         <translation>&amp;पता</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>FreespaceChecker</name>
     </context>
@@ -187,8 +226,19 @@
 <context>
     <name>Intro</name>
     <message>
+        <source>Bitcoin</source>
+        <translation>बीटकोइन</translation>
+    </message>
+    <message>
         <source>Error</source>
         <translation>भूल</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>फार्म</translation>
     </message>
     </context>
 <context>
@@ -212,6 +262,10 @@
         <source>&amp;Cancel</source>
         <translation>&amp;कैन्सल</translation>
     </message>
+    <message>
+        <source>Error</source>
+        <translation>भूल</translation>
+    </message>
     </context>
 <context>
     <name>OverviewPage</name>
@@ -219,6 +273,9 @@
         <source>Form</source>
         <translation>फार्म</translation>
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
     </context>
 <context>
     <name>PeerTableModel</name>
@@ -234,6 +291,16 @@
         <translation>लागू नही
 </translation>
     </message>
+    <message>
+        <source>unknown</source>
+        <translation>अज्ञात</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
     </context>
 <context>
     <name>RPCConsole</name>
@@ -264,6 +331,9 @@
         <source>Copy &amp;Address</source>
         <translation>&amp;पता कॉपी करे</translation>
     </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -320,6 +390,9 @@
     </message>
     </context>
 <context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
     <name>ShutdownWindow</name>
     </context>
 <context>
@@ -352,14 +425,36 @@
     <name>TrafficGraphWidget</name>
     </context>
 <context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
         <translation> ये खिड़की आपको लेन-देन का विस्तृत विवरण देगी !</translation>
     </message>
-</context>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;निर्यात</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -380,20 +475,12 @@
         <translation>ब्लॉक्स जाँचे जा रहा है...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
-        <translation>वॉलेट जाँचा जा रहा है...</translation>
-    </message>
-    <message>
         <source>Information</source>
         <translation>जानकारी</translation>
     </message>
     <message>
         <source>Warning</source>
         <translation>चेतावनी</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>पता पुस्तक आ रही है...</translation>
     </message>
     <message>
         <source>Loading block index...</source>

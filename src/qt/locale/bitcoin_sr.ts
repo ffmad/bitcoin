@@ -2,6 +2,10 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+        <source>Right-click to edit address or label</source>
+        <translation>Desni klik za izmenu adrese ili oznake</translation>
+    </message>
+    <message>
         <source>Create a new address</source>
         <translation>Napravite novu adresu</translation>
     </message>
@@ -18,14 +22,49 @@
         <translation>Kopirajte</translation>
     </message>
     <message>
+        <source>C&amp;lose</source>
+        <translation>Zatvorite</translation>
+    </message>
+    <message>
         <source>Delete the currently selected address from the list</source>
         <translation>Izbrisite trenutno izabranu adresu sa liste</translation>
     </message>
     <message>
-        <source>&amp;Delete</source>
-        <translation>&amp;Избриши</translation>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Eksportuj podatke iz izabrane kartice u fajl</translation>
     </message>
-</context>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Izvedi</translation>
+    </message>
+    <message>
+        <source>&amp;Delete</source>
+        <translation>&amp;Izbriši</translation>
+    </message>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Izbirajte adresu za slanje</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Izbirajte adresu za primanje</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Adresa za slanje</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Adresa za primanje</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -40,7 +79,7 @@
         <source>Repeat new passphrase</source>
         <translation>Поновите нову лозинку</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>BanTableModel</name>
     </context>
@@ -131,6 +170,10 @@
         <translation>Трака са картицама</translation>
     </message>
     <message>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+    <message>
         <source>Up to date</source>
         <translation>Ажурно</translation>
     </message>
@@ -154,7 +197,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;закључан&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -188,7 +231,7 @@
         <source>&amp;Address</source>
         <translation>&amp;Адреса</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>FreespaceChecker</name>
     </context>
@@ -205,6 +248,17 @@
     </context>
 <context>
     <name>Intro</name>
+    <message>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -227,6 +281,10 @@
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
+    <message>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
     </context>
 <context>
     <name>OverviewPage</name>
@@ -234,6 +292,9 @@
         <source>Form</source>
         <translation>Форма</translation>
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
     </context>
 <context>
     <name>PeerTableModel</name>
@@ -244,9 +305,27 @@
         <source>Amount</source>
         <translation>iznos</translation>
     </message>
+    <message>
+        <source>unknown</source>
+        <translation>nepoznato</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
     </context>
 <context>
     <name>RPCConsole</name>
+    <message>
+        <source>Yes</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ne</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -262,6 +341,10 @@
         <source>&amp;Message:</source>
         <translation>Poruka:</translation>
     </message>
+    <message>
+        <source>Show</source>
+        <translation>Prikaži</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
@@ -269,6 +352,13 @@
         <source>Copy &amp;Address</source>
         <translation>Kopirajte adresu</translation>
     </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -288,7 +378,7 @@
         <source>S&amp;end</source>
         <translation>&amp;Пошаљи</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -312,6 +402,13 @@
         <translation>Poruka:</translation>
     </message>
     </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    <message>
+        <source>Yes</source>
+        <translation>Da</translation>
+    </message>
+</context>
 <context>
     <name>ShutdownWindow</name>
     </context>
@@ -337,14 +434,40 @@
     <name>TrafficGraphWidget</name>
     </context>
 <context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Ovaj odeljak pokazuje detaljan opis transakcije</translation>
     </message>
-</context>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Izvedi</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -373,8 +496,8 @@
         <translation>Lozinka za JSON-RPC konekcije</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
-        <translation>učitavam adrese....</translation>
+        <source>Insufficient funds</source>
+        <translation>Nedovoljno sredstava</translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -392,5 +515,9 @@
         <source>Done loading</source>
         <translation>Završeno učitavanje</translation>
     </message>
-    </context>
+    <message>
+        <source>Error</source>
+        <translation>Greška</translation>
+    </message>
+</context>
 </TS>

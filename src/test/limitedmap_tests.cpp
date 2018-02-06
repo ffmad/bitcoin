@@ -1,10 +1,10 @@
-// Copyright (c) 2012-2016 The Bitcoin Core developers
+// Copyright (c) 2012-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "limitedmap.h"
+#include <limitedmap.h>
 
-#include "test/test_bitcoin.h"
+#include <test/test_bitcoin.h>
 
 #include <boost/test/unit_test.hpp>
 
@@ -27,7 +27,7 @@ BOOST_AUTO_TEST_CASE(limitedmap_test)
     // make sure that the size is updated
     BOOST_CHECK(map.size() == 1);
 
-    // make sure that the new items is in the map
+    // make sure that the new item is in the map
     BOOST_CHECK(map.count(-1) == 1);
 
     // insert 10 new items
